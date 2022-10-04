@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Contoh Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="tampilan.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Validasi Form dengan Javascript</h1>
+        </div>
+        <div class="container">
+            <form action="" class="form" onsubmit="return validate()">
+              <div class="error" style="display: none"></div>
+        
+              <div class="input-field">
+                <label for="email">Email</label>
+                <input type="text" id="email" />
+              </div>
+        
+              <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" />
+              </div>
+          
+              <input type="submit" value="Login">
+            </form>
+          </div>
+          <script src="app.js"></script>
+    </body>
+</html>
